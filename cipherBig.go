@@ -7,7 +7,8 @@ package rc5
 import (
 	"crypto/cipher"
 	"math/big"
-	"scorpioncompute.com/bigmath"
+
+	"github.com/euphratesdata/go-bigmath"
 )
 
 var one = big.NewInt(1)
